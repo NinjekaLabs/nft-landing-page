@@ -1,0 +1,131 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+*{
+  --font-header: 'Homemade Apple', cursive;
+  --font-body: 'Neucha', cursive;
+}
+body {
+  font-family: var(--font-body);
+  background-color: rgb(0, 0, 0);
+  color: blue;
+  font-size: 1.5em;
+  --accent-color: rgb(255, 0, 149);
+  --color: aliceblue;
+ } 
+header {
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  float: center;
+}
+header div {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  float: center;  
+  display: flex;
+  flex-direction: row;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+header .container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--accent-color);
+  color: aliceblue;
+  font-family: var(--font-header);
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 0 0 var(--color);
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+}
+.btn:hover {
+  box-shadow: none;
+}
+
+.wallet-btn {
+  border-radius: 5rem;
+  margin-left: 2rem;
+  border-color: transparent;
+}
+h1 {
+  float: center;
+  font-family: var(--font-header);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  --accent-color: rgb(255, 0, 149);
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 2px 0 var(--accent-color);
+  margin: 2rem 0;
+  font-size: 2em
+}
+nav {
+  float: left;
+  width: 10%;
+  background: rgb(0, 0, 0);
+  padding: 30px;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+nav ul a{
+  color: aliceblue;
+}
+article {
+  float: left;
+  padding: 30px;
+  width: 70%;
+  background-color: rgb(255, 81, 212);
+}
+#carolina {
+  float: left;
+  padding: 20px;
+  display: flex;
+  width: 24%;
+  margin-left: auto;
+  margin-right: auto;
+} 
+h2 {
+  font-size: 1.6em;
+  font-family: var(--font-header);
+  text-align: center;
+  
+} 
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: aliceblue;
+  padding: 10px;
+  font-family: var(--font-header);
+  text-align: center;
+  color:rgb(0, 0, 0)
+}
+@media (max-width: 600px) {
+  nav, article {
+    width:100%;
+    height:auto;
+  }
+}
