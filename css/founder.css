@@ -67,7 +67,7 @@ h1 {
   color: rgb(255, 255, 255);
   text-shadow: 4px 2px 0 var(--accent-color);
   margin: 2rem 0;
-  font-size: 2em
+  font-size: 2rem
 }
 nav {
   float: left;
