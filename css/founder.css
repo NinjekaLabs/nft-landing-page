@@ -121,11 +121,12 @@ footer {
   padding: 10px;
   font-family: var(--font-header);
   text-align: center;
-  color:rgb(0, 0, 0)
+  color:rgb(0, 0, 0);
+  width: auto;
 }
 @media (max-width: 600px) {
   nav, article {
-    width:100%;
-    height:auto;
+    width: auto;
+    height: auto;
   }
 }
