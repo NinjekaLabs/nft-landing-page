@@ -209,11 +209,14 @@ section {
     width: 90%;
     padding: 0;
   }
-  nav ul a {
+  nav {
     text-align: center;
   }
   section {
-    width:90%;
+    width: 90%;
+  }
+  #main {
+    align-items: center;
   }
   .count-down {
     gap: .5rem;
