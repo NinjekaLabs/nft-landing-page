@@ -211,6 +211,9 @@ section {
   #main {
     align-items: center;
   }
+  .container article h1 {
+    align-items: center;
+  }
   .count-down {
     max-width: auto;
     align-items: center;
