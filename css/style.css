@@ -216,7 +216,7 @@ section {
     width:90%;
   }
   .count-down {
-    gap: 1rem;
+    gap: .5rem;
     margin-right: 2rem;  
   }
   .countdown h1 {
