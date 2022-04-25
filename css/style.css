@@ -219,6 +219,7 @@ section {
     max-width: auto;
     align-items: center;
     margin: 0rem 5rem;
+    display: flex;
   }
   .countdown h1 {
     font-size: 2rem;
