@@ -204,7 +204,10 @@ section {
     padding: 1rem;
     max-width: 8rem;
   }
-  
+  nav, section {
+    width: 100%;
+    height: auto;
+  }
   .count-down {
     max-width: auto;
     align-items: center;
