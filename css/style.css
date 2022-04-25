@@ -210,7 +210,7 @@ section {
     padding: 0;
   }
   nav {
-    padding-left: 2rem;
+    padding-left: 1rem;
     text-align: left;
 
   }
@@ -218,7 +218,7 @@ section {
     width: 90%;
   }
   #main, #h1 {
-    width: 100%;
+    width: auto;
     height: auto;
   }
   .count-down {
