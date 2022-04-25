@@ -209,7 +209,7 @@ section {
     height: auto;
   }
   #countdown {
-    max-width: 70%;
+    max-width: auto;
   }
   .countdown h1 {
     font-size: 2rem;
