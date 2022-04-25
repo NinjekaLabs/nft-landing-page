@@ -210,11 +210,11 @@ section {
     width: 90%;
     padding: 0;
   }
-  #nav {
+  nav ul a {
     text-align: center;
   }
   section {
-    width:fit-content;
+    width:90%;
   }
   .count-down {
     max-width: auto;
