@@ -131,6 +131,10 @@ footer {
   #nav {
     text-align: center;
   }
+  #carolina, #h2 {
+    width: 90%;
+    height: auto;
+  }
 
   
 }
