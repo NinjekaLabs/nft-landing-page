@@ -202,7 +202,7 @@ section {
   .wallet-btn {
     margin-left: 0;
     padding: 1rem;
-    max-width: 6rem;
+    max-width: 8rem;
     font-size: .75rem;
   }
   nav, section {
@@ -213,7 +213,7 @@ section {
   nav {
     padding-left: 1rem;
     text-align: left;
-    width: 90%;
+    width: 95%;
   }
   section {
     width: 90%;
