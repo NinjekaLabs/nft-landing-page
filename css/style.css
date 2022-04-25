@@ -134,7 +134,7 @@ section {
 .countdown ul {
   box-sizing: border-box;
   display: flex;
-  gap: 2rem
+  gap: 2rem;
 }
 .countdown .clock-item {
   box-sizing: border-box;
@@ -217,6 +217,7 @@ section {
   }
   .count-down {
     align-items: center;
+    max-width: 90%;
   }
   .countdown h1 {
     font-size: 2rem;
