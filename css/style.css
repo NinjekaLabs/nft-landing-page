@@ -207,8 +207,14 @@ section {
   }
   nav, section {
     float: left;
-    width: 94%;
+    width: 90%;
     padding: 0;
+  }
+  #nav {
+    text-align: center;
+  }
+  section {
+    width:fit-content;
   }
   .count-down {
     max-width: auto;
