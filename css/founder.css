@@ -13,28 +13,19 @@ body {
   --accent-color: rgb(255, 0, 149);
   --color: aliceblue;
  } 
-header {
+header .container {
   background-color: black;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   float: center;
-}
-header div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  float: center;  
   display: flex;
   flex-direction: row;
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 1rem;
-}
-header .container {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .menu {
