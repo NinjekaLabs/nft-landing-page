@@ -211,6 +211,7 @@ section {
   #countdown {
     max-width: auto;
     align-items: center;
+    padding: 0px;
   }
   .countdown h1 {
     font-size: 2rem;
