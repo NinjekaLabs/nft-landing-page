@@ -216,7 +216,7 @@ section {
     width:90%;
   }
   .count-down {
-    max-width: auto;
+    max-width: 90%;
     align-items: center;
   }
   .countdown h1 {
