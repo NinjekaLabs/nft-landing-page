@@ -108,14 +108,14 @@ section {
 #main {
   float: left;
   padding: 20px;
-  display: block;
+  display: flex;
   width: 24%;
   margin-left: auto;
   margin-right: auto; 
 }
 .container article h1 {
   font-family: var(--font-primary);
-  text-align: right;
+  text-align: center;
 }
 .container article p {
   font-family: var(--font-secondary);
