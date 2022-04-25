@@ -210,13 +210,13 @@ section {
     padding: 0;
   }
   nav {
-    text-align: center;
+    text-align: left;
   }
   section {
     width: 90%;
   }
   #main {
-    align-items: center;
+    float: center;
   }
   .count-down {
     gap: .5rem;
