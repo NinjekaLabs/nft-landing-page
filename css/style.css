@@ -89,6 +89,7 @@ nav ul a{
   color: aliceblue;
 }
 section {
+ display: flex;
  float: left;
  padding: 30px;
  width: 70%;
