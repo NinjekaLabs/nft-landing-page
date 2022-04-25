@@ -208,7 +208,7 @@ section {
     width: auto;
     height: auto;
   }
-  #countdown {
+  .count-down {
     max-width: auto;
     align-items: center;
     padding: 0px;
