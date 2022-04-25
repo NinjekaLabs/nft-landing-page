@@ -195,7 +195,7 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .menu {
     gap: 1rem;
   }
@@ -209,6 +209,12 @@ section {
   }
   .countdown p {
     font-size: 1rem;
+  }
+  #section, #nav {
+    float: left;
+    padding: 0;
+    width: 94%;
+    margin: 3%;
   }
 }
  
