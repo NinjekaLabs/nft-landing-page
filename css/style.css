@@ -215,9 +215,7 @@ section {
   section {
     width:90%;
   }
-  .count-down {
-    max-width: 90%;
-    align-items: center;
+  
   }
   .countdown h1 {
     font-size: 2rem;
