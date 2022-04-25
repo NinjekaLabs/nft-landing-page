@@ -116,13 +116,6 @@ footer {
   width: auto;
 }
 @media (max-width: 600px) {
-  nav, article {
-    width: auto;
-    height: auto;
-  }
-  #nav {
-    text-align: center;
-  }
   .menu {
     gap: 1rem;
   }
@@ -131,4 +124,13 @@ footer {
     padding: 1rem;
     max-width: 8rem;
   }
+  nav, article {
+    width: auto;
+    height: auto;
+  }
+  #nav {
+    text-align: center;
+  }
+
+  
 }
