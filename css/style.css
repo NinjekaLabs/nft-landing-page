@@ -45,7 +45,7 @@ header .container {
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-weight: bold;
   font-size: 1.25rem;
   text-transform: capitalize;
@@ -202,7 +202,8 @@ section {
   .wallet-btn {
     margin-left: 0;
     padding: 1rem;
-    max-width: 8rem;
+    max-width: 6rem;
+    font-size: .75rem;
   }
   nav, section {
     float: left;
@@ -212,7 +213,7 @@ section {
   nav {
     padding-left: 1rem;
     text-align: left;
-
+    width: 90%;
   }
   section {
     width: 90%;
