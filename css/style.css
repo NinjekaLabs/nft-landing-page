@@ -90,8 +90,8 @@ nav ul a{
 }
 section {
  float: left;
- width: 70%;
  padding: 30px;
+ width: 70%;
  background-color: #000;
 }
 .container {
@@ -207,7 +207,6 @@ section {
   nav, section {
     float: left;
     width: 94%;
-    margin: 3%;
     padding: 0;
   }
   .count-down {
