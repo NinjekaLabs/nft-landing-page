@@ -210,14 +210,14 @@ section {
     padding: 0;
   }
   nav {
-    margin-left: 2rem;
+    padding-left: 2rem;
     text-align: left;
+
   }
   section {
     width: 90%;
   }
   #main, #h1 {
-    float: left;
     width: 100%;
     height: auto;
   }
