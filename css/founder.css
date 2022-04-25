@@ -129,4 +129,15 @@ footer {
     width: auto;
     height: auto;
   }
+  #nav {
+    text-align: center;
+  }
+  .menu {
+    gap: 1rem;
+  }
+  .wallet-btn {
+    margin-left: 0;
+    padding: 1rem;
+    max-width: 8rem;
+  }
 }
