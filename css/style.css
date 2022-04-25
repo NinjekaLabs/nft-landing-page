@@ -208,6 +208,9 @@ section {
     width: 100%;
     height: auto;
   }
+  #main {
+    align-items: center;
+  }
   .count-down {
     max-width: auto;
     align-items: center;
